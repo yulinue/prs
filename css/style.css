@@ -99,7 +99,8 @@ img {
     vertical-align: top;
 }
 
-button, a {
+button,
+a {
     -webkit-tap-highlight-color: transparent;
     touch-action: manipulation;
 }
@@ -200,10 +201,6 @@ body.lock {
     text-transform: uppercase;
 }
 
-.btn-primary:hover {
-    background: var(--primary-hover);
-}
-
 .btn-outline {
     border: 1px solid var(--primary);
     color: var(--gray1);
@@ -214,13 +211,19 @@ body.lock {
     font-weight: 400;
 }
 
-.btn-outline:hover {
-    background-color: var(--primary);
-    color: #fff;
-}
+@media (hover: hover) {
+    .btn-primary:hover {
+        background: var(--primary-hover);
+    }
 
-.btn-outline:hover svg path {
-    stroke: #fff;
+    .btn-outline:hover {
+        background-color: var(--primary);
+        color: #fff;
+    }
+
+    .btn-outline:hover svg path {
+        stroke: #fff;
+    }
 }
 
 /* text */
@@ -252,34 +255,36 @@ h4 {
     /* Убираем подчеркивание */
 }
 
-.underline-one:after {
-    content: "";
-    display: block;
-    position: absolute;
-    right: 0;
-    bottom: -3px;
-    width: 0;
-    height: 2px;
-    /* Высота линии */
-    background-color: var(--primary);
-    /* Цвет подчеркивания при исчезании линии*/
-    transition: width 0.5s;
-    /* Время эффекта */
-}
+@media (hover: hover) {
+    .underline-one:after {
+        content: "";
+        display: block;
+        position: absolute;
+        right: 0;
+        bottom: -3px;
+        width: 0;
+        height: 2px;
+        /* Высота линии */
+        background-color: var(--primary);
+        /* Цвет подчеркивания при исчезании линии*/
+        transition: width 0.5s;
+        /* Время эффекта */
+    }
 
-.underline-one:hover:after {
-    content: "";
-    width: 100%;
-    display: block;
-    position: absolute;
-    left: 0;
-    bottom: -3px;
-    height: 2px;
-    /* Высота линии */
-    background-color: var(--primary);
-    /* Цвет подчеркивания при появлении линии*/
-    transition: width 0.5s;
-    /* Время эффекта */
+    .underline-one:hover:after {
+        content: "";
+        width: 100%;
+        display: block;
+        position: absolute;
+        left: 0;
+        bottom: -3px;
+        height: 2px;
+        /* Высота линии */
+        background-color: var(--primary);
+        /* Цвет подчеркивания при появлении линии*/
+        transition: width 0.5s;
+        /* Время эффекта */
+    }
 }
 
 /* title */
@@ -718,14 +723,8 @@ header {
     }
 }
 
-
-
 @media (hover: hover) {
-    /* .catalog-grid__card:hover h3 {
-        color: var(--gray);
-    } */
-
-    .catalog-grid__card:hover h3{
+    .catalog-grid__card:hover h3 {
         color: var(--primary);
     }
 }
@@ -905,12 +904,12 @@ header {
 .requisites,
 .requisites__actions {
     -webkit-box-align: center;
-       -ms-flex-align: center;
-          align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
 
     -webkit-box-pack: center;
-       -ms-flex-pack: center;
-          justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
 }
 
 .company-block {
@@ -1741,13 +1740,15 @@ header {
     padding: 1.4rem 0.88rem;
 }
 
-.contacts-actions .btn-outline:hover {
-    color: white;
-}
+@media (hover: hover) {
+    .contacts-actions .btn-outline:hover {
+        color: white;
+    }
 
-.contacts-actions .btn-outline:hover svg path {
-    stroke: inherit;
-    fill: #fff;
+    .contacts-actions .btn-outline:hover svg path {
+        stroke: inherit;
+        fill: #fff;
+    }
 }
 
 .contacts-list {
