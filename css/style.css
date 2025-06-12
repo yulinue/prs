@@ -722,6 +722,12 @@ header {
     color: var(--primary);
 }
 
+@media (hover: none) {
+    .catalog-grid__card:hover h3 {
+        color: inherit;
+    }
+}
+
 .catalog-grid__card p {
     max-width: 39rem;
     font-weight: 400;
