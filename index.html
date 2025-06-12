@@ -55,15 +55,15 @@
     <header>
         <div class="header-content">
             <div class="header__main">
-                <a href="#"><img src="images/logo/logo.png" alt="logo" class="header__logo"></a>
+                <a href="index.html"><img src="images/logo/logo.png" alt="logo" class="header__logo"></a>
 
                 <div class="header__nav">
-                    <a href="#" class="underline-one">Товары</a>
-                    <a href="#" class="underline-one">Аренда</a>
+                    <a href="catalog.html" class="underline-one">Товары</a>
+                    <a href="catalog.html" class="underline-one">Аренда</a>
                     <a href="#" class="underline-one">Услуги</a>
-                    <a href="#company" class="underline-one">Компания</a>
-                    <a href="#contacts" class="underline-one">Контакты</a>
-                    <a href="#vacancies" class="underline-one">Вакансии</a>
+                    <a href="index.html#company" class="underline-one">Компания</a>
+                    <a href="index.html#contacts" class="underline-one">Контакты</a>
+                    <a href="index.html#vacancies" class="underline-one">Вакансии</a>
                 </div>
             </div>
 
@@ -83,175 +83,314 @@
         </div>
     </header>
 
-    <!-- slider -->
-    <div class="slider__container swiper">
-        <!-- Additional required wrapper -->
-        <div class="swiper-wrapper">
-            <!-- Slides -->
-            <div class="swiper-slide">
-                <div class="slide-inner">
-                    <a href="#">
-                        <img src="images/slider/slide1.png" alt="slide" class="slideImg">
-                        <img src="images/slider/mobileSlide.png" alt="slide" class="mobileSlideImg">
-                    </a>
+    <main>
+        <!-- slider -->
+        <div class="slider__container swiper">
+            <!-- Additional required wrapper -->
+            <div class="swiper-wrapper">
+                <!-- Slides -->
+                <div class="swiper-slide">
+                    <div class="slide-inner">
+                        <a href="#">
+                            <img src="images/slider/slide1.png" alt="slide" class="slideImg">
+                            <img src="images/slider/mobileSlide.png" alt="slide" class="mobileSlideImg">
+                        </a>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="slide-inner">
+                        <a href="#">
+                            <img src="images/slider/slide1.png" alt="slide" class="slideImg">
+                            <img src="images/slider/mobileSlide.png" alt="slide" class="mobileSlideImg">
+                        </a>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="slide-inner">
+                        <a href="#">
+                            <img src="images/slider/slide1.png" alt="slide" class="slideImg">
+                            <img src="images/slider/mobileSlide.png" alt="slide" class="mobileSlideImg">
+                        </a>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="slide-inner">
+                        <a href="#">
+                            <img src="images/slider/slide1.png" alt="slide" class="slideImg">
+                            <img src="images/slider/mobileSlide.png" alt="slide" class="mobileSlideImg">
+                        </a>
+                    </div>
                 </div>
             </div>
-            <div class="swiper-slide">
-                <div class="slide-inner">
-                    <a href="#">
-                        <img src="images/slider/slide1.png" alt="slide" class="slideImg">
-                        <img src="images/slider/mobileSlide.png" alt="slide" class="mobileSlideImg">
-                    </a>
+
+            <div class="slider__controls">
+                <!-- If we need pagination -->
+                <div class="swiper-pagination"></div>
+
+                <!-- If we need navigation buttons -->
+                <div class="swiper-button-prev">
+                    <img src="images/slider/slider-arrow.svg" alt="">
                 </div>
-            </div>
-            <div class="swiper-slide">
-                <div class="slide-inner">
-                    <a href="#">
-                        <img src="images/slider/slide1.png" alt="slide" class="slideImg">
-                        <img src="images/slider/mobileSlide.png" alt="slide" class="mobileSlideImg">
-                    </a>
-                </div>
-            </div>
-            <div class="swiper-slide">
-                <div class="slide-inner">
-                    <a href="#">
-                        <img src="images/slider/slide1.png" alt="slide" class="slideImg">
-                        <img src="images/slider/mobileSlide.png" alt="slide" class="mobileSlideImg">
-                    </a>
+                <div class="swiper-button-next">
+                    <img src="images/slider/slider-arrow.svg" alt="">
                 </div>
             </div>
         </div>
 
-        <div class="slider__controls">
-            <!-- If we need pagination -->
-            <div class="swiper-pagination"></div>
-
-            <!-- If we need navigation buttons -->
-            <div class="swiper-button-prev">
-                <img src="images/slider/slider-arrow.svg" alt="">
+        <!-- catalog -->
+        <div class="catalog__container container">
+            <div class="title">
+                <h2 class="primary">Каталог</h2>
+                <h3 class="title-indent gray">Товаров и услуг</h3>
             </div>
-            <div class="swiper-button-next">
-                <img src="images/slider/slider-arrow.svg" alt="">
+
+            <div class="catalog-grid">
+                <a href="catalog.html" class="catalog-grid__card">
+                    <h3>Товары</h3>
+                    <p>Опалубка стеновая, объемная опалубка перекрытий, фанера, комплектующие и элементы опалубки, леса
+                        фасадные, вышки-туры, станки для резки и гибки арматуры, виброоборудование, трансформаторы для
+                        прогрева бетона, расходные материалы и многое другое в наличии со склада в Казани и под заказ
+                    </p>
+                    <img src="images/mainPageCatalog/tovary.png" alt="">
+                </a>
+
+                <a href="catalog.html" class="catalog-grid__card">
+                    <h3>Аренда</h3>
+                    <p>Опалубка стальная щитовая, объемные опалубочные системы для заливки перекрытий, комплектующие для
+                        опалубки, фанера, леса фасадные, вышки-туры, станки для резки и гибки арматуры, трансформаторы
+                        для
+                        прогрева бетона, бадьи для бетона и многое другое в наличии со склада в Казани</p>
+                    <img src="images/mainPageCatalog/arenda.png" alt="">
+                </a>
+
+                <a href="catalog.html" class="catalog-grid__card">
+                    <h3>РЕМОНТ ОБОРУДОВАНИЯ</h3>
+                    <p>осуществляем качественный и быстрый ремонт станков, трансформаторов, электроинструмента</p>
+                    <img src="images/mainPageCatalog/remont-oborudovaniya.png" alt="">
+                </a>
+
+                <a href="catalog.html" class="catalog-grid__card">
+                    <h3>РЕМОНТ ОПАЛУБКИ</h3>
+                    <p>производим чистку и ремонт стальной щитовой опалубки, восстанавливаем функциональность и
+                        фирменный
+                        внешний вид</p>
+                    <img src="images/mainPageCatalog/remont-opalubki.png" alt="">
+                </a>
+
+                <a href="catalog.html" class="catalog-grid__card">
+                    <h3>ОБРАТНЫЙ ВЫКУП</h3>
+                    <p>услуга, позволяющая оптимизировать расходы на приобретение строительного оборудования и
+                        материалов,
+                        делая Ваши затраты минимальными</p>
+                    <img src="images/mainPageCatalog/obratny-vykup.png" alt="">
+                </a>
+
+                <a href="catalog.html" class="catalog-grid__card">
+                    <h3>ДОСТАВКА</h3>
+                    <p>до строительного объекта заказчика грузовым бортовым транспортом с краново-манипуляторной
+                        установкой
+                        по Казани и Татарстану</p>
+                    <img src="images/mainPageCatalog/dostavka.png" alt="">
+                </a>
             </div>
         </div>
-    </div>
 
-    <!-- catalog -->
-    <div class="catalog__container container">
-        <div class="title">
-            <h2 class="primary">Каталог</h2>
-            <h3 class="title-indent gray">Товаров и услуг</h3>
-        </div>
+        <!-- company -->
+        <div class="company__container container big-container" id="company">
+            <div class="title">
+                <h2 class="gray">Компания</h2>
+                <h2 class="primary title-indent">Промрентснаб</h2>
+            </div>
 
-        <div class="catalog-grid">
-            <a href="#" class="catalog-grid__card">
-                <h3>Товары</h3>
-                <p>Опалубка стеновая, объемная опалубка перекрытий, фанера, комплектующие и элементы опалубки, леса
-                    фасадные, вышки-туры, станки для резки и гибки арматуры, виброоборудование, трансформаторы для
-                    прогрева бетона, расходные материалы и многое другое в наличии со склада в Казани и под заказ</p>
-                <img src="images/mainPageCatalog/tovary.png" alt="">
-            </a>
+            <div class="company-block__container">
+                <div class="company-block">
 
-            <a href="#" class="catalog-grid__card">
-                <h3>Аренда</h3>
-                <p>Опалубка стальная щитовая, объемные опалубочные системы для заливки перекрытий, комплектующие для
-                    опалубки, фанера, леса фасадные, вышки-туры, станки для резки и гибки арматуры, трансформаторы для
-                    прогрева бетона, бадьи для бетона и многое другое в наличии со склада в Казани</p>
-                <img src="images/mainPageCatalog/arenda.png" alt="">
-            </a>
+                    <img src="images/company/companyBg.svg" alt="" class="company-bgImg">
 
-            <a href="#" class="catalog-grid__card">
-                <h3>РЕМОНТ ОБОРУДОВАНИЯ</h3>
-                <p>осуществляем качественный и быстрый ремонт станков, трансформаторов, электроинструмента</p>
-                <img src="images/mainPageCatalog/remont-oborudovaniya.png" alt="">
-            </a>
+                    <div class="company-block__main-info">
+                        <div class="main-info__about-block">
+                            <div class="about-company">
+                                <h3 class="primary">О нас</h3>
+                                <p class="gray">Компания «ПРОМРЕНТСНАБ» более 10 лет обеспечивает крупные строительные
+                                    объекты и малое
+                                    строительство Казани и Республики Татарстан, а также партнеров застройщиков в
+                                    соседних
+                                    республиках, опалубочными конструкциями, оборудованием и расходными материалами для
+                                    монолитного строительства. Специализируется на продаже, сдаче в аренду и ремонте
+                                    оборудования: строительной опалубки, комплектующих для опалубочных систем, фасадных
+                                    лесов и промышленного технического оборудования, различных расходных материалов.
+                                    Является официальным дилером надежных производителей строительного оборудования,
+                                    положительно зарекомендовавших себя на российском рынке: щитовой и объемной
+                                    опалубки,
+                                    станков для обработки арматуры, ламинированной фанеры, комплектующих, расходных
+                                    материалов и многого другого.</p>
+                            </div>
 
-            <a href="#" class="catalog-grid__card">
-                <h3>РЕМОНТ ОПАЛУБКИ</h3>
-                <p>производим чистку и ремонт стальной щитовой опалубки, восстанавливаем функциональность и фирменный
-                    внешний вид</p>
-                <img src="images/mainPageCatalog/remont-opalubki.png" alt="">
-            </a>
+                            <div class="company-benefits">
+                                <div class="company-benefits__card">
+                                    <h4 class="primary">Более 10 лет</h4>
+                                    <p class="gray2">на рынке строительного<br>оборудования</p>
+                                </div>
 
-            <a href="#" class="catalog-grid__card">
-                <h3>ОБРАТНЫЙ ВЫКУП</h3>
-                <p>услуга, позволяющая оптимизировать расходы на приобретение строительного оборудования и материалов,
-                    делая Ваши затраты минимальными</p>
-                <img src="images/mainPageCatalog/obratny-vykup.png" alt="">
-            </a>
+                                <div class="company-benefits__card">
+                                    <h4 class="primary">1 500+ клиентов</h4>
+                                    <p class="gray2">выбрали нас для покупки и аренды строительного оборудования</p>
+                                </div>
 
-            <a href="#" class="catalog-grid__card">
-                <h3>ДОСТАВКА</h3>
-                <p>до строительного объекта заказчика грузовым бортовым транспортом с краново-манипуляторной установкой
-                    по Казани и Татарстану</p>
-                <img src="images/mainPageCatalog/dostavka.png" alt="">
-            </a>
-        </div>
-    </div>
+                                <div class="company-benefits__card">
+                                    <h4 class="primary">Прямые поставки</h4>
+                                    <p class="gray2">от заводов производителей<br>опалубки и оборудования</p>
+                                </div>
 
-    <!-- company -->
-    <div class="company__container container big-container" id="company">
-        <div class="title">
-            <h2 class="gray">Компания</h2>
-            <h2 class="primary title-indent">Промрентснаб</h2>
-        </div>
+                                <div class="company-benefits__card">
+                                    <h4 class="primary">Бесплатные расчеты</h4>
+                                    <p class="gray2">при заказе строительной<br>опалубки у нас</p>
+                                </div>
 
-        <div class="company-block__container">
-            <div class="company-block">
+                                <div class="company-benefits__card">
+                                    <h4 class="primary">Гибкие сроки</h4>
+                                    <p class="gray2">аренды опалубки<br>от 7 дней</p>
+                                </div>
 
-                <img src="images/company/companyBg.svg" alt="" class="company-bgImg">
-
-                <div class="company-block__main-info">
-                    <div class="main-info__about-block">
-                        <div class="about-company">
-                            <h3 class="primary">О нас</h3>
-                            <p class="gray">Компания «ПРОМРЕНТСНАБ» более 10 лет обеспечивает крупные строительные
-                                объекты и малое
-                                строительство Казани и Республики Татарстан, а также партнеров застройщиков в соседних
-                                республиках, опалубочными конструкциями, оборудованием и расходными материалами для
-                                монолитного строительства. Специализируется на продаже, сдаче в аренду и ремонте
-                                оборудования: строительной опалубки, комплектующих для опалубочных систем, фасадных
-                                лесов и промышленного технического оборудования, различных расходных материалов.
-                                Является официальным дилером надежных производителей строительного оборудования,
-                                положительно зарекомендовавших себя на российском рынке: щитовой и объемной опалубки,
-                                станков для обработки арматуры, ламинированной фанеры, комплектующих, расходных
-                                материалов и многого другого.</p>
+                                <div class="company-benefits__card">
+                                    <h4 class="primary">Быстрая доставка</h4>
+                                    <p class="gray2">грузовым транспортом с краново-манипуляторной установкой </p>
+                                </div>
+                            </div>
                         </div>
 
-                        <div class="company-benefits">
-                            <div class="company-benefits__card">
-                                <h4 class="primary">Более 10 лет</h4>
-                                <p class="gray2">на рынке строительного<br>оборудования</p>
+                        <div class="company-block__partners mobile-partners">
+                            <div class="partners-block">
+                                <h6 class="gray2">Наши партнеры:</h6>
+                                <div class="partner-swiper swiper">
+                                    <div class="swiper-wrapper">
+                                        <div class="swiper-slide"><img src="images/partners/partnerLogo.png" alt="">
+                                        </div>
+                                        <div class="swiper-slide"><img src="images/logo/logo.png" alt=""></div>
+                                        <div class="swiper-slide"><img src="images/partners/partnerLogo.png" alt="">
+                                        </div>
+                                        <div class="swiper-slide"><img src="images/partners/partnerLogo.png" alt="">
+                                        </div>
+                                        <div class="swiper-slide"><img src="images/partners/partnerLogo.png" alt="">
+                                        </div>
+                                    </div>
+                                    <div class="partner-swiper-pagination"></div>
+                                </div>
+                            </div>
+                            <div class="certificates-block">
+                                <h6 class="gray2">Являемся официальными<br>диллерами:</h6>
+                                <div class="partner-swiper swiper">
+                                    <div class="swiper-wrapper">
+                                        <div class="swiper-slide"><img src="images/certificates/certificate.png" alt="">
+                                        </div>
+                                        <div class="swiper-slide"><img src="images/certificates/certificate.png" alt="">
+                                        </div>
+                                        <div class="swiper-slide"><img src="images/certificates/certificate.png" alt="">
+                                        </div>
+                                        <div class="swiper-slide"><img src="images/logo/logo.png" alt=""></div>
+                                        <div class="swiper-slide"><img src="images/certificates/certificate.png" alt="">
+                                        </div>
+                                    </div>
+                                    <div class="partner-swiper-pagination"></div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="requisites">
+                            <h3 class="primary">реквизиты компании</h3>
+
+                            <div class="requisites__table">
+                                <div class="requisites__table-item">
+                                    <p class="gray2">Полное наименование юридического лица</p>
+                                    <p class="gray2 align-end">Общество с ограниченной ответственностью «ПРС116»</p>
+                                </div>
+                                <hr class="requisites__table-line">
+
+                                <div class="requisites__table-item">
+                                    <p class="gray2">Сокращенное наименование юридического лица</p>
+                                    <p class="gray2 align-end">ООО «ПРС116»</p>
+                                </div>
+                                <hr class="requisites__table-line">
+
+                                <div class="requisites__table-item">
+                                    <p class="gray2">Торговое наименование</p>
+                                    <p class="gray2 align-end">«ПРС116», «ПромРентСнаб»</p>
+                                </div>
+                                <hr class="requisites__table-line">
+
+                                <div class="requisites__table-item">
+                                    <p class="gray2">Юридический адрес<br>Фактический адрес</p>
+                                    <p class="gray2 align-end">420043, Республика Татарстан, г. Казань,<br>ул.
+                                        Вишневского,
+                                        д. 26а, помещ. 4001</p>
+                                </div>
+                                <hr class="requisites__table-line">
+
+                                <div class="requisites__table-item">
+                                    <p class="gray2">ИНН / КПП</p>
+                                    <p class="gray2 align-end">1655475487 / 165501001</p>
+                                </div>
+                                <hr class="requisites__table-line">
+
+                                <div class="requisites__table-item">
+                                    <p class="gray2">ОГРН</p>
+                                    <p class="gray2 align-end">1221600029364</p>
+                                </div>
+                                <hr class="requisites__table-line">
+
+                                <div class="requisites__table-item">
+                                    <p class="gray2">Расчетный счет</p>
+                                    <p class="gray2 align-end">40702810162710000028</p>
+                                </div>
+                                <hr class="requisites__table-line">
+
+                                <div class="requisites__table-item">
+                                    <p class="gray2">Корреспондентский счет</p>
+                                    <p class="gray2 align-end">30101810600000000603</p>
+                                </div>
+                                <hr class="requisites__table-line">
+
+                                <div class="requisites__table-item">
+                                    <p class="gray2">БИК</p>
+                                    <p class="gray2 align-end">049205603</p>
+                                </div>
                             </div>
 
-                            <div class="company-benefits__card">
-                                <h4 class="primary">1 500+ клиентов</h4>
-                                <p class="gray2">выбрали нас для покупки и аренды строительного оборудования</p>
-                            </div>
+                            <div class="requisites__actions">
+                                <a href="docs/partnerCard.pdf" class="btn btn-primary" id="showRequisites"
+                                    target="_blank" rel="noopener noreferrer">
+                                    посмотреть реквизиты
+                                    <svg width="25" height="24" viewBox="0 0 25 24" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path
+                                            d="M16.0262 11.9999C16.0262 13.9799 14.4262 15.5799 12.4462 15.5799C10.4662 15.5799 8.86621 13.9799 8.86621 11.9999C8.86621 10.0199 10.4662 8.41992 12.4462 8.41992C14.4262 8.41992 16.0262 10.0199 16.0262 11.9999Z"
+                                            stroke="white" stroke-width="1.02" stroke-linecap="round"
+                                            stroke-linejoin="round" />
+                                        <path
+                                            d="M12.4462 20.27C15.9762 20.27 19.2662 18.19 21.5562 14.59C22.4562 13.18 22.4562 10.81 21.5562 9.39997C19.2662 5.79997 15.9762 3.71997 12.4462 3.71997C8.91619 3.71997 5.62619 5.79997 3.33619 9.39997C2.43619 10.81 2.43619 13.18 3.33619 14.59C5.62619 18.19 8.91619 20.27 12.4462 20.27Z"
+                                            stroke="white" stroke-width="1.02" stroke-linecap="round"
+                                            stroke-linejoin="round" />
+                                    </svg>
+                                </a>
 
-                            <div class="company-benefits__card">
-                                <h4 class="primary">Прямые поставки</h4>
-                                <p class="gray2">от заводов производителей<br>опалубки и оборудования</p>
-                            </div>
-
-                            <div class="company-benefits__card">
-                                <h4 class="primary">Бесплатные расчеты</h4>
-                                <p class="gray2">при заказе строительной<br>опалубки у нас</p>
-                            </div>
-
-                            <div class="company-benefits__card">
-                                <h4 class="primary">Гибкие сроки</h4>
-                                <p class="gray2">аренды опалубки<br>от 7 дней</p>
-                            </div>
-
-                            <div class="company-benefits__card">
-                                <h4 class="primary">Быстрая доставка</h4>
-                                <p class="gray2">грузовым транспортом с краново-манипуляторной установкой </p>
+                                <a href="docs/partnerCard.pdf" download="partnerCard.pdf" class="btn btn-outline">
+                                    скачать карту партнера
+                                    <svg width="25" height="24" viewBox="0 0 25 24" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path
+                                            d="M2.17993 12C2.17993 17.5228 6.65708 22 12.1799 22C17.7028 22 22.1799 17.5228 22.1799 12C22.1799 6.47715 17.7028 2 12.1799 2C6.65708 2 2.17993 6.47715 2.17993 12Z"
+                                            stroke="#2190EC" stroke-linecap="round" stroke-linejoin="round" />
+                                        <path d="M12.1799 8.5V14.5" stroke="#2190EC" stroke-linecap="round"
+                                            stroke-linejoin="round" />
+                                        <path d="M9.17993 12.5L12.1799 15.5L15.1799 12.5" stroke="#2190EC"
+                                            stroke-linecap="round" stroke-linejoin="round" />
+                                    </svg>
+                                </a>
                             </div>
                         </div>
                     </div>
 
-                    <div class="company-block__partners mobile-partners">
+                    <div class="company-block__partners">
                         <div class="partners-block">
                             <h6 class="gray2">Наши партнеры:</h6>
                             <div class="partner-swiper swiper">
@@ -283,259 +422,142 @@
                             </div>
                         </div>
                     </div>
-
-                    <div class="requisites">
-                        <h3 class="primary">реквизиты компании</h3>
-
-                        <div class="requisites__table">
-                            <div class="requisites__table-item">
-                                <p class="gray2">Полное наименование юридического лица</p>
-                                <p class="gray2 align-end">Общество с ограниченной ответственностью «ПРС116»</p>
-                            </div>
-                            <hr class="requisites__table-line">
-
-                            <div class="requisites__table-item">
-                                <p class="gray2">Сокращенное наименование юридического лица</p>
-                                <p class="gray2 align-end">ООО «ПРС116»</p>
-                            </div>
-                            <hr class="requisites__table-line">
-
-                            <div class="requisites__table-item">
-                                <p class="gray2">Торговое наименование</p>
-                                <p class="gray2 align-end">«ПРС116», «ПромРентСнаб»</p>
-                            </div>
-                            <hr class="requisites__table-line">
-
-                            <div class="requisites__table-item">
-                                <p class="gray2">Юридический адрес<br>Фактический адрес</p>
-                                <p class="gray2 align-end">420043, Республика Татарстан, г. Казань,<br>ул. Вишневского,
-                                    д. 26а, помещ. 4001</p>
-                            </div>
-                            <hr class="requisites__table-line">
-
-                            <div class="requisites__table-item">
-                                <p class="gray2">ИНН / КПП</p>
-                                <p class="gray2 align-end">1655475487 / 165501001</p>
-                            </div>
-                            <hr class="requisites__table-line">
-
-                            <div class="requisites__table-item">
-                                <p class="gray2">ОГРН</p>
-                                <p class="gray2 align-end">1221600029364</p>
-                            </div>
-                            <hr class="requisites__table-line">
-
-                            <div class="requisites__table-item">
-                                <p class="gray2">Расчетный счет</p>
-                                <p class="gray2 align-end">40702810162710000028</p>
-                            </div>
-                            <hr class="requisites__table-line">
-
-                            <div class="requisites__table-item">
-                                <p class="gray2">Корреспондентский счет</p>
-                                <p class="gray2 align-end">30101810600000000603</p>
-                            </div>
-                            <hr class="requisites__table-line">
-
-                            <div class="requisites__table-item">
-                                <p class="gray2">БИК</p>
-                                <p class="gray2 align-end">049205603</p>
-                            </div>
-                        </div>
-
-                        <div class="requisites__actions">
-                            <a href="docs/partnerCard.pdf" class="btn btn-primary" id="showRequisites" target="_blank"
-                                rel="noopener noreferrer">
-                                посмотреть реквизиты
-                                <svg width="25" height="24" viewBox="0 0 25 24" fill="none"
-                                    xmlns="http://www.w3.org/2000/svg">
-                                    <path
-                                        d="M16.0262 11.9999C16.0262 13.9799 14.4262 15.5799 12.4462 15.5799C10.4662 15.5799 8.86621 13.9799 8.86621 11.9999C8.86621 10.0199 10.4662 8.41992 12.4462 8.41992C14.4262 8.41992 16.0262 10.0199 16.0262 11.9999Z"
-                                        stroke="white" stroke-width="1.02" stroke-linecap="round"
-                                        stroke-linejoin="round" />
-                                    <path
-                                        d="M12.4462 20.27C15.9762 20.27 19.2662 18.19 21.5562 14.59C22.4562 13.18 22.4562 10.81 21.5562 9.39997C19.2662 5.79997 15.9762 3.71997 12.4462 3.71997C8.91619 3.71997 5.62619 5.79997 3.33619 9.39997C2.43619 10.81 2.43619 13.18 3.33619 14.59C5.62619 18.19 8.91619 20.27 12.4462 20.27Z"
-                                        stroke="white" stroke-width="1.02" stroke-linecap="round"
-                                        stroke-linejoin="round" />
-                                </svg>
-                            </a>
-
-                            <a href="docs/partnerCard.pdf" download="partnerCard.pdf" class="btn btn-outline">
-                                скачать карту партнера
-                                <svg width="25" height="24" viewBox="0 0 25 24" fill="none"
-                                    xmlns="http://www.w3.org/2000/svg">
-                                    <path
-                                        d="M2.17993 12C2.17993 17.5228 6.65708 22 12.1799 22C17.7028 22 22.1799 17.5228 22.1799 12C22.1799 6.47715 17.7028 2 12.1799 2C6.65708 2 2.17993 6.47715 2.17993 12Z"
-                                        stroke="#2190EC" stroke-linecap="round" stroke-linejoin="round" />
-                                    <path d="M12.1799 8.5V14.5" stroke="#2190EC" stroke-linecap="round"
-                                        stroke-linejoin="round" />
-                                    <path d="M9.17993 12.5L12.1799 15.5L15.1799 12.5" stroke="#2190EC"
-                                        stroke-linecap="round" stroke-linejoin="round" />
-                                </svg>
-                            </a>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="company-block__partners">
-                    <div class="partners-block">
-                        <h6 class="gray2">Наши партнеры:</h6>
-                        <div class="partner-swiper swiper">
-                            <div class="swiper-wrapper">
-                                <div class="swiper-slide"><img src="images/partners/partnerLogo.png" alt=""></div>
-                                <div class="swiper-slide"><img src="images/logo/logo.png" alt=""></div>
-                                <div class="swiper-slide"><img src="images/partners/partnerLogo.png" alt=""></div>
-                                <div class="swiper-slide"><img src="images/partners/partnerLogo.png" alt=""></div>
-                                <div class="swiper-slide"><img src="images/partners/partnerLogo.png" alt=""></div>
-                            </div>
-                            <div class="partner-swiper-pagination"></div>
-                        </div>
-                    </div>
-                    <div class="certificates-block">
-                        <h6 class="gray2">Являемся официальными<br>диллерами:</h6>
-                        <div class="partner-swiper swiper">
-                            <div class="swiper-wrapper">
-                                <div class="swiper-slide"><img src="images/certificates/certificate.png" alt=""></div>
-                                <div class="swiper-slide"><img src="images/certificates/certificate.png" alt=""></div>
-                                <div class="swiper-slide"><img src="images/certificates/certificate.png" alt=""></div>
-                                <div class="swiper-slide"><img src="images/logo/logo.png" alt=""></div>
-                                <div class="swiper-slide"><img src="images/certificates/certificate.png" alt=""></div>
-                            </div>
-                            <div class="partner-swiper-pagination"></div>
-                        </div>
-                    </div>
                 </div>
             </div>
         </div>
-    </div>
 
-    <!-- vacancies -->
-    <div class="vacancies__container container" id="vacancies">
-        <!-- работник -->
-        <img src="images/vacancies/man.png" alt="" class="vacancies__worker-img">
+        <!-- vacancies -->
+        <div class="vacancies__container container" id="vacancies">
+            <!-- работник -->
+            <img src="images/vacancies/man.png" alt="" class="vacancies__worker-img">
 
-        <a href="">
-            <div class="vacancies__container-inner-container">
-                <!-- белые линии -->
-                <img src="images/vacancies/vacanciesBg.png" alt="" class="vacancies__bgImg">
+            <a href="">
+                <div class="vacancies__container-inner-container">
+                    <!-- белые линии -->
+                    <img src="images/vacancies/vacanciesBg.png" alt="" class="vacancies__bgImg">
 
-                <h2>приглашаем<br>на работу</h2>
-                <div class="vacancies__text-block">
-                    <p>Хочешь работать с профессионалами и влиять на уровень своего дохода? Присоединяйся к нам и стань
-                        частью команды, где каждый день – это новый вызов и возможность расти!</p>
-                    <div class="vacancies__link">
-                        <p>Подробности на</p>
-                        <a href=""><img src="images/vacancies/headHunter.svg" alt=""></a>
+                    <h2>приглашаем<br>на работу</h2>
+                    <div class="vacancies__text-block">
+                        <p>Хочешь работать с профессионалами и влиять на уровень своего дохода? Присоединяйся к нам и
+                            стань
+                            частью команды, где каждый день – это новый вызов и возможность расти!</p>
+                        <div class="vacancies__link">
+                            <p>Подробности на</p>
+                            <a href=""><img src="images/vacancies/headHunter.svg" alt=""></a>
+                        </div>
                     </div>
                 </div>
-            </div>
-        </a>
+            </a>
 
-    </div>
-
-    <!-- contacts -->
-    <div class="contacts__container container big-container" id="contacts">
-        <div class="title">
-            <h2 class="gray">Контакты</h2>
-            <h2 class="primary title-indent">Промрентснаб</h2>
         </div>
 
-        <div class="contacts-block__container">
-            <div class="contacts-block">
-                <div class="contacts-block__main-info">
-                    <div class="main-info__contacts">
-                        <div class="contacts-actions">
-                            <a href="#" class="btn btn-outline">
-                                telegram
-                                <svg width="20" height="20" viewBox="0 0 20 20" fill="none"
-                                    xmlns="http://www.w3.org/2000/svg">
-                                    <path
-                                        d="M10 0C15.5228 0 20 4.47715 20 10C20 15.5228 15.5228 20 10 20C4.47715 20 0 15.5228 0 10C0 4.47715 4.47715 0 10 0ZM14.0889 6.02051C13.7127 6.02713 13.1355 6.22772 10.3584 7.38281C9.38574 7.78737 7.44155 8.62443 4.52637 9.89453C4.05307 10.0828 3.8048 10.2672 3.78223 10.4473C3.7393 10.7927 4.23727 10.9 4.86328 11.1035C5.37386 11.2695 6.06092 11.464 6.41797 11.4717C6.74172 11.4786 7.10306 11.3452 7.50195 11.0713C10.2213 9.23563 11.6274 8.30613 11.7197 8.2832C11.7818 8.26911 11.8683 8.2513 11.9268 8.30273C11.9852 8.3547 11.9798 8.45406 11.9736 8.48047C11.9205 8.69431 9.3705 11.0139 9.21875 11.1709C8.65611 11.7553 8.01582 12.1131 9.00293 12.7637C9.85715 13.3266 10.3544 13.6859 11.2344 14.2627C11.7967 14.6313 12.2378 15.0688 12.8184 15.0156C13.0856 14.991 13.3618 14.7396 13.502 13.9902C13.8332 12.2192 14.4843 8.38201 14.6348 6.80078C14.6479 6.66227 14.6315 6.48508 14.6182 6.40723C14.6048 6.3294 14.5768 6.21881 14.4756 6.13672C14.3559 6.03969 14.1717 6.01911 14.0889 6.02051Z"
-                                        fill="#2190EC" />
-                                </svg>
-                            </a>
+        <!-- contacts -->
+        <div class="contacts__container container big-container" id="contacts">
+            <div class="title">
+                <h2 class="gray">Контакты</h2>
+                <h2 class="primary title-indent">Промрентснаб</h2>
+            </div>
 
-                            <a href="#" class="btn btn-outline">
-                                whatsapp
-                                <svg width="20" height="20" viewBox="0 0 20 20" fill="none"
-                                    xmlns="http://www.w3.org/2000/svg">
-                                    <g clip-path="url(#clip0_2033_642)">
+            <div class="contacts-block__container">
+                <div class="contacts-block">
+                    <div class="contacts-block__main-info">
+                        <div class="main-info__contacts">
+                            <div class="contacts-actions">
+                                <a href="#" class="btn btn-outline">
+                                    telegram
+                                    <svg width="20" height="20" viewBox="0 0 20 20" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
                                         <path
-                                            d="M9.51035 0.0103446C4.18534 0.261935 -0.0166002 4.66094 -0.000687375 9.94769C0.0018219 11.5033 0.374726 13.0362 1.08765 14.4218L0.0267984 19.5335C0.0134927 19.597 0.0165306 19.6628 0.0356314 19.7248C0.0547322 19.7868 0.0892802 19.8431 0.136085 19.8883C0.18289 19.9336 0.240443 19.9665 0.30343 19.9839C0.366416 20.0013 0.432805 20.0026 0.496467 19.9879L5.54661 18.8012C6.88265 19.4611 8.35117 19.8147 9.84355 19.8358C15.2862 19.9185 19.8252 15.6314 19.994 10.2352C20.1758 4.45049 15.3629 -0.266118 9.51035 0.0103446ZM15.5379 15.4119C14.3776 16.5621 12.8825 17.3219 11.2636 17.5844C9.64465 17.8468 7.98351 17.5985 6.5144 16.8746L5.81086 16.5273L2.71462 17.2548L3.36608 14.1166L3.01985 13.4436C2.27057 11.9818 2.00662 10.3223 2.26576 8.7026C2.5249 7.08292 3.29386 5.58603 4.46261 4.42609C5.93104 2.96954 7.92264 2.15125 9.9993 2.15125C12.076 2.15125 14.0676 2.96954 15.536 4.42609C17.0044 5.88265 17.8294 7.85816 17.8294 9.91803C17.8294 11.9779 17.0044 13.9534 15.536 15.41L15.5379 15.4119Z"
+                                            d="M10 0C15.5228 0 20 4.47715 20 10C20 15.5228 15.5228 20 10 20C4.47715 20 0 15.5228 0 10C0 4.47715 4.47715 0 10 0ZM14.0889 6.02051C13.7127 6.02713 13.1355 6.22772 10.3584 7.38281C9.38574 7.78737 7.44155 8.62443 4.52637 9.89453C4.05307 10.0828 3.8048 10.2672 3.78223 10.4473C3.7393 10.7927 4.23727 10.9 4.86328 11.1035C5.37386 11.2695 6.06092 11.464 6.41797 11.4717C6.74172 11.4786 7.10306 11.3452 7.50195 11.0713C10.2213 9.23563 11.6274 8.30613 11.7197 8.2832C11.7818 8.26911 11.8683 8.2513 11.9268 8.30273C11.9852 8.3547 11.9798 8.45406 11.9736 8.48047C11.9205 8.69431 9.3705 11.0139 9.21875 11.1709C8.65611 11.7553 8.01582 12.1131 9.00293 12.7637C9.85715 13.3266 10.3544 13.6859 11.2344 14.2627C11.7967 14.6313 12.2378 15.0688 12.8184 15.0156C13.0856 14.991 13.3618 14.7396 13.502 13.9902C13.8332 12.2192 14.4843 8.38201 14.6348 6.80078C14.6479 6.66227 14.6315 6.48508 14.6182 6.40723C14.6048 6.3294 14.5768 6.21881 14.4756 6.13672C14.3559 6.03969 14.1717 6.01911 14.0889 6.02051Z"
                                             fill="#2190EC" />
-                                        <path
-                                            d="M14.8529 12.0702L12.9158 11.5187C12.7909 11.4833 12.6586 11.4819 12.5329 11.5147C12.4073 11.5475 12.2928 11.6133 12.2017 11.7052L11.7277 12.1835C11.6302 12.2825 11.5053 12.3506 11.3689 12.3792C11.2324 12.4078 11.0905 12.3956 10.961 12.3442C10.0448 11.9764 8.11594 10.2765 7.62457 9.42654C7.55586 9.30605 7.52465 9.16808 7.53486 9.03002C7.54507 8.89196 7.59625 8.75998 7.68195 8.65073L8.09569 8.12028C8.17503 8.01812 8.22514 7.89664 8.24075 7.76861C8.25637 7.64059 8.2369 7.51076 8.18441 7.39278L7.36948 5.5642C7.32378 5.46232 7.25476 5.37242 7.16791 5.30161C7.08107 5.23081 6.97877 5.18106 6.86916 5.15632C6.75954 5.13157 6.64562 5.13251 6.53644 5.15906C6.42725 5.18561 6.32581 5.23704 6.24016 5.30926C5.6996 5.7627 5.05827 6.45194 4.98015 7.21532C4.84272 8.56128 5.42474 10.2583 7.62602 12.2959C10.1687 14.6502 12.2046 14.9611 13.5306 14.6425C14.2824 14.4617 14.8808 13.7375 15.2627 13.1444C15.323 13.0504 15.3604 12.9436 15.3719 12.8327C15.3833 12.7218 15.3686 12.6098 15.3288 12.5056C15.289 12.4013 15.2253 12.3077 15.1427 12.2321C15.0601 12.1565 14.9608 12.1011 14.8529 12.0702Z"
-                                            fill="#2190EC" />
-                                    </g>
-                                    <defs>
-                                        <clipPath id="clip0_2033_642">
-                                            <rect width="20" height="20" fill="white" />
-                                        </clipPath>
-                                    </defs>
-                                </svg>
-                            </a>
+                                    </svg>
+                                </a>
+
+                                <a href="#" class="btn btn-outline">
+                                    whatsapp
+                                    <svg width="20" height="20" viewBox="0 0 20 20" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <g clip-path="url(#clip0_2033_642)">
+                                            <path
+                                                d="M9.51035 0.0103446C4.18534 0.261935 -0.0166002 4.66094 -0.000687375 9.94769C0.0018219 11.5033 0.374726 13.0362 1.08765 14.4218L0.0267984 19.5335C0.0134927 19.597 0.0165306 19.6628 0.0356314 19.7248C0.0547322 19.7868 0.0892802 19.8431 0.136085 19.8883C0.18289 19.9336 0.240443 19.9665 0.30343 19.9839C0.366416 20.0013 0.432805 20.0026 0.496467 19.9879L5.54661 18.8012C6.88265 19.4611 8.35117 19.8147 9.84355 19.8358C15.2862 19.9185 19.8252 15.6314 19.994 10.2352C20.1758 4.45049 15.3629 -0.266118 9.51035 0.0103446ZM15.5379 15.4119C14.3776 16.5621 12.8825 17.3219 11.2636 17.5844C9.64465 17.8468 7.98351 17.5985 6.5144 16.8746L5.81086 16.5273L2.71462 17.2548L3.36608 14.1166L3.01985 13.4436C2.27057 11.9818 2.00662 10.3223 2.26576 8.7026C2.5249 7.08292 3.29386 5.58603 4.46261 4.42609C5.93104 2.96954 7.92264 2.15125 9.9993 2.15125C12.076 2.15125 14.0676 2.96954 15.536 4.42609C17.0044 5.88265 17.8294 7.85816 17.8294 9.91803C17.8294 11.9779 17.0044 13.9534 15.536 15.41L15.5379 15.4119Z"
+                                                fill="#2190EC" />
+                                            <path
+                                                d="M14.8529 12.0702L12.9158 11.5187C12.7909 11.4833 12.6586 11.4819 12.5329 11.5147C12.4073 11.5475 12.2928 11.6133 12.2017 11.7052L11.7277 12.1835C11.6302 12.2825 11.5053 12.3506 11.3689 12.3792C11.2324 12.4078 11.0905 12.3956 10.961 12.3442C10.0448 11.9764 8.11594 10.2765 7.62457 9.42654C7.55586 9.30605 7.52465 9.16808 7.53486 9.03002C7.54507 8.89196 7.59625 8.75998 7.68195 8.65073L8.09569 8.12028C8.17503 8.01812 8.22514 7.89664 8.24075 7.76861C8.25637 7.64059 8.2369 7.51076 8.18441 7.39278L7.36948 5.5642C7.32378 5.46232 7.25476 5.37242 7.16791 5.30161C7.08107 5.23081 6.97877 5.18106 6.86916 5.15632C6.75954 5.13157 6.64562 5.13251 6.53644 5.15906C6.42725 5.18561 6.32581 5.23704 6.24016 5.30926C5.6996 5.7627 5.05827 6.45194 4.98015 7.21532C4.84272 8.56128 5.42474 10.2583 7.62602 12.2959C10.1687 14.6502 12.2046 14.9611 13.5306 14.6425C14.2824 14.4617 14.8808 13.7375 15.2627 13.1444C15.323 13.0504 15.3604 12.9436 15.3719 12.8327C15.3833 12.7218 15.3686 12.6098 15.3288 12.5056C15.289 12.4013 15.2253 12.3077 15.1427 12.2321C15.0601 12.1565 14.9608 12.1011 14.8529 12.0702Z"
+                                                fill="#2190EC" />
+                                        </g>
+                                        <defs>
+                                            <clipPath id="clip0_2033_642">
+                                                <rect width="20" height="20" fill="white" />
+                                            </clipPath>
+                                        </defs>
+                                    </svg>
+                                </a>
+                            </div>
+
+                            <div class="contacts-list">
+                                <div class="contacts-list__item">
+                                    <a href="tel:+79585380098" class="primary">+7 (958) 538-00-98</a>
+                                    <span class="gray2">Отдел продаж</span>
+                                </div>
+
+                                <div class="contacts-list__item">
+                                    <a href="tel:+79934133050" class="primary">+7 (993) 413-30-50</a>
+                                    <span class="gray2">Бухгалтерия</span>
+                                </div>
+
+                                <div class="contacts-list__item">
+                                    <a href="mailto:info@promrentsnab.ru" class="primary">info@promrentsnab.ru</a>
+                                    <span class="gray2">Электронная почта</span>
+                                </div>
+                            </div>
                         </div>
 
-                        <div class="contacts-list">
-                            <div class="contacts-list__item">
-                                <a href="tel:+79585380098" class="primary">+7 (958) 538-00-98</a>
-                                <span class="gray2">Отдел продаж</span>
-                            </div>
-
-                            <div class="contacts-list__item">
-                                <a href="tel:+79934133050" class="primary">+7 (993) 413-30-50</a>
-                                <span class="gray2">Бухгалтерия</span>
-                            </div>
-
-                            <div class="contacts-list__item">
-                                <a href="mailto:info@promrentsnab.ru" class="primary">info@promrentsnab.ru</a>
-                                <span class="gray2">Электронная почта</span>
+                        <div class="main-info__map">
+                            <div
+                                style="position:absolute;overflow:hidden;width: 100%;height: 100%; border-radius: 2rem; top: 0;left: 0;">
+                                <iframe
+                                    src="https://yandex.ru/map-widget/v1/?ll=49.235452%2C55.796250&mode=poi&poi%5Bpoint%5D=49.233483%2C55.796666&poi%5Buri%5D=ymapsbm1%3A%2F%2Forg%3Foid%3D204756980064%26yclid%3D8198105421854539775&z=16.83"
+                                    frameborder="1" allowfullscreen="true"
+                                    style="width: 100%;height: 100%;border-radius: 2rem;"></iframe></div>
+                            <div class="map-adress-block">
+                                <p>Республика Татарстан, г. Казань, жилой массив Малые<br>Клыки, ул. Дорожная, д.33
+                                    (заезд с
+                                    Мамадышского тракта)</p>
                             </div>
                         </div>
                     </div>
 
-                    <div class="main-info__map">
-                        <div style="position:absolute;overflow:hidden;width: 100%;height: 100%; border-radius: 2rem; top: 0;left: 0;"><iframe
-                                src="https://yandex.ru/map-widget/v1/?ll=49.235452%2C55.796250&mode=poi&poi%5Bpoint%5D=49.233483%2C55.796666&poi%5Buri%5D=ymapsbm1%3A%2F%2Forg%3Foid%3D204756980064%26yclid%3D8198105421854539775&z=16.83"
-                                frameborder="1" allowfullscreen="true"
-                                style="width: 100%;height: 100%;border-radius: 2rem;"></iframe></div>
-                        <div class="map-adress-block">
-                            <p>Республика Татарстан, г. Казань, жилой массив Малые<br>Клыки, ул. Дорожная, д.33 (заезд с
-                                Мамадышского тракта)</p>
+                    <div class="contacts-block__additional-info">
+                        <div class="additional-info__block">
+                            <h4 class="primary">Режим работы офиса:</h4>
+
+                            <p class="gray2">ПН–ПТ: 08:00 – 17:00 (перерыв 12:00 – 13:00)<br>
+                                СБ: 08:00 – 12:00<br>
+                                ВС и праздничные дни: выходной</p>
+
+                        </div>
+
+                        <div class="additional-info__block">
+                            <h4 class="primary">Режим работы склада:</h4>
+
+                            <div class="additional-block__list">
+                                <p class="gray2">Отгрузка:<br>
+                                    ПН–ПТ: 08:00 – 11:00 и 13:00 – 16:00<br>
+                                    СБ: 08:00 – 11:00</p>
+
+                                <p class="gray2">Приемка возврата из аренды:<br>
+                                    ПН–ПТ: 08:00 – 11:00 и 13:00 – 15:00<br>
+                                    СБ, ВС и праздничные дни: выходной</p>
+                            </div>
+
+
                         </div>
                     </div>
                 </div>
 
-                <div class="contacts-block__additional-info">
-                    <div class="additional-info__block">
-                        <h4 class="primary">Режим работы офиса:</h4>
-
-                        <p class="gray2">ПН–ПТ: 08:00 – 17:00 (перерыв 12:00 – 13:00)<br>
-                            СБ: 08:00 – 12:00<br>
-                            ВС и праздничные дни: выходной</p>
-
-                    </div>
-
-                    <div class="additional-info__block">
-                        <h4 class="primary">Режим работы склада:</h4>
-
-                        <div class="additional-block__list">
-                            <p class="gray2">Отгрузка:<br>
-                                ПН–ПТ: 08:00 – 11:00 и 13:00 – 16:00<br>
-                                СБ: 08:00 – 11:00</p>
-
-                            <p class="gray2">Приемка возврата из аренды:<br>
-                                ПН–ПТ: 08:00 – 11:00 и 13:00 – 15:00<br>
-                                СБ, ВС и праздничные дни: выходной</p>
-                        </div>
-
-
-                    </div>
-                </div>
             </div>
-
         </div>
-    </div>
+    </main>
 
     <!-- footer -->
     <footer>
@@ -575,8 +597,8 @@
                                             d="M12 22C17.5228 22 22 17.5228 22 12C22 6.47715 17.5228 2 12 2C6.47715 2 2 6.47715 2 12C2 17.5228 6.47715 22 12 22Z"
                                             stroke="#2190EC" stroke-width="1.5" stroke-miterlimit="10"
                                             stroke-linecap="round" stroke-linejoin="round" />
-                                        <path d="M8.47 10.74L12 14.26L15.53 10.74" stroke="#2190EC" stroke-width="1.5"
-                                            stroke-linecap="round" stroke-linejoin="round" />
+                                        <path d="M8.47 10.74L12 14.26L15.53 10.74" stroke="#2190EC"
+                                            stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
                                     </svg>
                                 </button>
                             </div>
@@ -605,8 +627,8 @@
                                             d="M12 22C17.5228 22 22 17.5228 22 12C22 6.47715 17.5228 2 12 2C6.47715 2 2 6.47715 2 12C2 17.5228 6.47715 22 12 22Z"
                                             stroke="#2190EC" stroke-width="1.5" stroke-miterlimit="10"
                                             stroke-linecap="round" stroke-linejoin="round" />
-                                        <path d="M8.47 10.74L12 14.26L15.53 10.74" stroke="#2190EC" stroke-width="1.5"
-                                            stroke-linecap="round" stroke-linejoin="round" />
+                                        <path d="M8.47 10.74L12 14.26L15.53 10.74" stroke="#2190EC"
+                                            stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
                                     </svg>
                                 </button>
                             </div>
@@ -630,8 +652,8 @@
                                             d="M12 22C17.5228 22 22 17.5228 22 12C22 6.47715 17.5228 2 12 2C6.47715 2 2 6.47715 2 12C2 17.5228 6.47715 22 12 22Z"
                                             stroke="#2190EC" stroke-width="1.5" stroke-miterlimit="10"
                                             stroke-linecap="round" stroke-linejoin="round" />
-                                        <path d="M8.47 10.74L12 14.26L15.53 10.74" stroke="#2190EC" stroke-width="1.5"
-                                            stroke-linecap="round" stroke-linejoin="round" />
+                                        <path d="M8.47 10.74L12 14.26L15.53 10.74" stroke="#2190EC"
+                                            stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
                                     </svg>
                                 </button>
                             </div>
@@ -723,10 +745,6 @@
 
         </div>
     </footer>
-
-    <main>
-
-    </main>
 </body>
 
 </html>
