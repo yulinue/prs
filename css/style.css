@@ -718,13 +718,15 @@ header {
     }
 }
 
-.catalog-grid__card:hover h3{
-    color: var(--primary);
-}
 
-@media (hover: none) {
-    .catalog-grid__card:hover h3 {
-        color: inherit;
+
+@media (hover: hover) {
+    /* .catalog-grid__card:hover h3 {
+        color: var(--gray);
+    } */
+
+    .catalog-grid__card:hover h3{
+        color: var(--primary);
     }
 }
 
