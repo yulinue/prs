@@ -14,6 +14,7 @@
 </head>
 
 <body>
+    
     <!-- фоновое изображение -->
     <div class="svg-bg-wrapper">
         <svg class="bg-svg" width="5248" height="9195" viewBox="0 0 5248 9195" fill="none"
@@ -51,6 +52,8 @@
         </svg>
     </div>
 
+    <div class="overlay" id="overlay"></div>
+
     <!-- хедер -->
     <header>
         <div class="header-content">
@@ -58,8 +61,8 @@
                 <a href="index.html"><img src="images/logo/logo.png" alt="logo" class="header__logo"></a>
 
                 <div class="header__nav">
-                    <div class="nav-item dropdown">
-                        <a href="catalog.html" class="underline-one">Товары</a>
+                    <div class="nav-item dropdown" id="items-dropdown">
+                        <a href="catalog.html" class="dropdown-link">Товары</a>
                         <div class="dropdown-menu__container">
                             <div class="dropdown-menu">
                                 <a href="catalog.html" class="gray2">Опалубка</a>
@@ -74,8 +77,9 @@
                             </div>
                         </div>
                     </div>
-                    <div class="nav-item dropdown">
-                        <a href="catalog.html" class="underline-one">Аренда</a>
+
+                    <div class="nav-item dropdown" id="services-dropdown">
+                        <a href="catalog.html" class="dropdown-link">Аренда</a>
                         <div class="dropdown-menu__container">
                             <div class="dropdown-menu">
                                 <a href="catalog.html" class="gray2">Обратный выкуп</a>
