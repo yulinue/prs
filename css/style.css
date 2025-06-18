@@ -257,6 +257,10 @@ body.lock {
     position: relative;
 }
 
+.modal-container.success-block{
+    display: none;
+}
+
 @media (max-width:606px) {
     .modal-container{
         width: calc(100% - 20px);
@@ -391,7 +395,7 @@ body.lock {
     align-items: center;
 }
 
-.form__submition-container button {
+.submit-btn {
     font-weight: 600;
     font-size: 16px;
     text-transform: uppercase;
@@ -404,7 +408,7 @@ body.lock {
     border-radius: 1rem;
 }
 
-.form__submition-container button:hover {
+.submit-btn:hover {
     background-color: #fff;
     color: var(--primary);
 }

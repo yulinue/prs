@@ -57,7 +57,7 @@
 
     <!-- modal -->
     <div class="modal-overlay" id="modal-overlay">
-        <div class="modal-container">
+        <div class="modal-container" id="mainModal">
 
             <button class="close-modal-btn" id="close-modal-btn"><svg width="60" height="60" viewBox="0 0 60 60" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <path
@@ -97,7 +97,7 @@
                 </div>
 
                 <div class="form__submition-container">
-                    <button type="submit">Оставить заявку</button>
+                    <button type="submit" class="submit-btn">Оставить заявку</button>
                     <span>Нажав кнопку “Оставить заявку”- вы принимаете <a href="#">условия обработки персональных
                             данных</a></span>
                 </div>
@@ -107,7 +107,29 @@
                 <rect y="46.6621" width="30.511" height="131.338" fill="white" fill-opacity="0.2" />
                 <rect x="73.4886" y="30.3975" width="30.511" height="147.603" fill="white" fill-opacity="0.2" />
                 <rect x="36.7444" width="30.511" height="178" fill="white" fill-opacity="0.2" />
-              </svg>
+            </svg>
+        </div>
+
+        <div class="modal-container success-block">
+            <button class="close-modal-btn" id="close-modal-btn"><svg width="60" height="60" viewBox="0 0 60 60" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path
+                    d="M30 55C43.75 55 55 43.75 55 30C55 16.25 43.75 5 30 5C16.25 5 5 16.25 5 30C5 43.75 16.25 55 30 55Z"
+                    stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                <path d="M22.925 37.0748L37.075 22.9248" stroke="white" stroke-width="1.5" stroke-linecap="round"
+                    stroke-linejoin="round" />
+                <path d="M37.075 37.0748L22.925 22.9248" stroke="white" stroke-width="1.5" stroke-linecap="round"
+                    stroke-linejoin="round" />
+            </svg></button>
+
+        <div class="modal-title">
+            <h3>спасибо</h3>
+            <h5>Мы уже обрабатываем ваш запрос, совсем скоро свяжемся с вами</h5>
+        </div>
+
+        <img src="images/submit.svg" alt="">
+
+        <button type="submit" class="submit-btn" id="close-modal-btn">Хорошо</button>
+
         </div>
     </div>
 

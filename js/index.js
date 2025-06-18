@@ -1,4 +1,4 @@
-document.addEventListener('scroll', function() {
+document.addEventListener('scroll', function () {
     const bg = document.querySelector('.bg-svg');
     const scrollPosition = window.pageYOffset;
     bg.style.transform = `translateX(-50%) translateY(-${scrollPosition}px)`;
@@ -12,7 +12,7 @@ footerNavColumns.forEach(footerNavColumn => {
     })
 });
 
-document.addEventListener('DOMContentLoaded', function() {
+document.addEventListener('DOMContentLoaded', function () {
     const dropdownLinks = document.querySelectorAll('.dropdown-link');
     const overlay = document.querySelector('#overlay');
     let activeDropdown = null;
@@ -84,8 +84,11 @@ document.addEventListener('DOMContentLoaded', function () {
 
 const openModal = document.querySelector('#openModal');
 const openModalBurger = document.querySelector('#openModalBurger');
-const closeModal = document.querySelector('#close-modal-btn');
+const closeModals = document.querySelectorAll('#close-modal-btn');
 const modalOverlay = document.querySelector('#modal-overlay');
+const mainModal = document.querySelector('#mainModal');
+const successBlock = document.querySelector('.success-block');
+const modalForm = document.querySelector('.modal-form');
 
 openModal.addEventListener('click', () => {
     modalOverlay.classList.add('active');
@@ -98,8 +101,17 @@ openModalBurger.addEventListener('click', () => {
     burgerMenu.classList.remove('active');
 })
 
-closeModal.addEventListener('click', () => {
-    modalOverlay.classList.remove('active');
-    body.classList.remove('lock');
-})
+closeModals.forEach(closeModal => {
+    closeModal.addEventListener('click', () => {
+        modalOverlay.classList.remove('active');
+        body.classList.remove('lock');
+        mainModal.style.display = 'flex';
+        successBlock.style.display = 'none';
+    })
+});
 
+modalForm.addEventListener('submit', (e) => {
+    e.preventDefault();
+    mainModal.style.display = 'none';
+    successBlock.style.display = 'flex';
+})
