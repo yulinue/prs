@@ -58,4 +58,48 @@ document.addEventListener('DOMContentLoaded', function() {
     overlay.addEventListener('click', closeAllDropdowns);
 });
 
+const openBurgerBtn = document.querySelector('#openBurger');
+const closeBurgerBtn = document.querySelector('#closeBurger');
+const burgerMenu = document.querySelector('.burger-menu__container');
+const body = document.body;
+
+openBurgerBtn.addEventListener('click', () => {
+    burgerMenu.classList.add('active');
+    body.classList.add('lock');
+});
+
+closeBurgerBtn.addEventListener('click', () => {
+    burgerMenu.classList.remove('active');
+    body.classList.remove('lock');
+});
+
+document.addEventListener('DOMContentLoaded', function () {
+    Inputmask({
+        mask: "+7 (999) 999-99-99", // Маска для номера телефона
+        placeholder: "", // Убираем плейсхолдер
+        showMaskOnFocus: false, // Скрываем маску при фокусе
+        showMaskOnHover: false // Скрываем маску при наведении
+    }).mask(document.getElementById('phone-input'));
+});
+
+const openModal = document.querySelector('#openModal');
+const openModalBurger = document.querySelector('#openModalBurger');
+const closeModal = document.querySelector('#close-modal-btn');
+const modalOverlay = document.querySelector('#modal-overlay');
+
+openModal.addEventListener('click', () => {
+    modalOverlay.classList.add('active');
+    body.classList.add('lock');
+})
+
+openModalBurger.addEventListener('click', () => {
+    modalOverlay.classList.add('active');
+    body.classList.add('lock');
+    burgerMenu.classList.remove('active');
+})
+
+closeModal.addEventListener('click', () => {
+    modalOverlay.classList.remove('active');
+    body.classList.remove('lock');
+})
 
