@@ -82,6 +82,16 @@ document.addEventListener('DOMContentLoaded', function () {
     }).mask(document.getElementById('phone-input'));
 });
 
+const phoneInput = document.getElementById('phone-input');
+
+phoneInput.addEventListener('input', function () {
+    // Оставляем только цифры и символы маски
+    const cleaned = this.value.replace(/[^0-9+()\- ]/g, '');
+    if (this.value !== cleaned) {
+        this.value = cleaned;
+    }
+});
+
 const openModal = document.querySelector('#openModal');
 const openModalBurger = document.querySelector('#openModalBurger');
 const closeModals = document.querySelectorAll('#close-modal-btn');
