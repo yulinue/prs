@@ -92,7 +92,7 @@ phoneInput.addEventListener('input', function () {
     }
 });
 
-const openModal = document.querySelector('#openModal');
+const openModals = document.querySelectorAll('#openModal');
 const openModalBurger = document.querySelector('#openModalBurger');
 const closeModals = document.querySelectorAll('#close-modal-btn');
 const modalOverlay = document.querySelector('#modal-overlay');
@@ -100,10 +100,14 @@ const mainModal = document.querySelector('#mainModal');
 const successBlock = document.querySelector('.success-block');
 const modalForm = document.querySelector('.modal-form');
 
-openModal.addEventListener('click', () => {
-    modalOverlay.classList.add('active');
-    body.classList.add('lock');
-})
+openModals.forEach(openModal => {
+    openModal.addEventListener('click', () => {
+        modalOverlay.classList.add('active');
+        body.classList.add('lock');
+    })
+});
+
+
 
 openModalBurger.addEventListener('click', () => {
     modalOverlay.classList.add('active');
